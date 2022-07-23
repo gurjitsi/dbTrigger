@@ -1,0 +1,13 @@
+<?php
+	session_start();
+	$a=$_POST['username'];
+	$b=$_POST['password'];
+	$conn=mysql_connect('localhost',$a,$b);
+	if(!$conn)
+	{
+	header("location:index.php?login=false");
+	}
+	$_SESSION['uname']=$a;
+	$_SESSION['password']=$b;
+	header("location:main.php");
+?>
