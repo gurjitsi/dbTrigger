@@ -28,7 +28,6 @@ $password=$_SESSION['password'];
         }
         $sqlquery=implode(",",$value_updated);
         echo $sqlquery;
-        #echo $sql;
         $query="UPDATE $tab SET $sqlquery WHERE $sql LIMIT 1";
         $run=mysql_query($query);
         if($run==1)
