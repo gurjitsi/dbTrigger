@@ -21,10 +21,6 @@
 	}
 	$nu=0;
 
-  // $db=$_POST['db'];
-  // $table=$_POST['table'];
-  // $f=$_POST['field'];
-   #echo $db.$table.$f;
    for($i=0;$i<$f;$i++)
    {
     $fld='field'.$i;
@@ -45,20 +41,13 @@
     $d= NULL;
     }
     $e=$_POST["$ind"];
-    /*if(isset($_POST["$nll"]))
-    {
-    $f=$_POST["$nll"];
-    }
-    else 
-    {
-    $f= NULL;
-    }*/
+    
     echo $a;
     echo $b;
     echo $c;
     echo $d;
     echo $e;
-    //echo $f;
+  
       if($i==0)
       {
       $con=mysql_connect('localhost',$user,$password) or die('Connecting to MySQL failed');
