@@ -10,7 +10,6 @@ session_start();
 	if(isset($_GET['sub']))
 	{
 	$a=$_GET['db'];
-	//echo $a;
 	$con=mysql_connect('localhost',$user,$password);
 	$qu="create database $a";
 	$res=mysql_query($qu);
@@ -23,8 +22,6 @@ session_start();
            header("location:databases.php");
            }
 	}
-
-//DROP DATABASE
   if(isset($_GET['db1']))
   {
   $database=$_GET['db1'];
