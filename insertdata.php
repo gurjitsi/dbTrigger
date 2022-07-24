@@ -9,7 +9,7 @@ $password=$_SESSION['password'];
 ?>
 <html>
 <title>
-MYSQLtrigger
+dbTrigger
 </title>
 <head>
 <style type='text/css'>
@@ -50,7 +50,7 @@ border: 2px solid #444;
 <table height='550px' width='190px'>
 <tr>
 <td style='font-family:arial; color:grey; font-size:18px; font-weight:bold; text-decoration:none;'>
-<span style='font-family:arial; color:#444; font-size:20px; font-weight:bold; text-decoration:none;'>MYSQLtrigger 1.0</span>
+<span style='font-family:arial; color:#444; font-size:20px; font-weight:bold; text-decoration:none;'>dbTrigger 1.0</span>
 </td>
 </tr>
 <tr>
@@ -107,8 +107,6 @@ echo "</table>";
 <?php
   $table=$_GET['table'];
   $db=$_GET['db'];
-  //echo $table;
-  //echo $db;
   $con=mysql_connect('localhost',$user,$password) or die('could not connect to server');
   $d=mysql_select_db($db,$con) or die('could not connect to db');
   $qu="select * from $table";
