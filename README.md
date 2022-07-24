@@ -12,6 +12,8 @@
   <li>HTML</li>
   <li>CSS</li>
   <li>PHP</li>
+  <li>MySql</li>
+  <li>Apache</li>
 </ul>
 </p>
 <h3>License</h3><hr/>
