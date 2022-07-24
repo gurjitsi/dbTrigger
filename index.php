@@ -1,6 +1,6 @@
 <html>
 <title>
-MYSQLtrigger
+dbTrigger
 </title>
 <head>
 <style type='text/css'>
@@ -34,9 +34,9 @@ border: 2px solid #444;
 <tr>
 <td height='150px' align='center'>
 <br/>
-<img src='image/logo.png' height='150px' width='400px'>
+<img src='image/logo.png' height='120px' width='400px'>
 <br/><br/>
-<span style='font-family:arial; color:#444; font-size:20px; font-weight:bold; text-decoration:none;'>MYSQLtrigger 1.0</span>
+<span style='font-family:arial; color:#444; font-size:20px; font-weight:bold; text-decoration:none;'>dbTrigger 1.0</span>
 </td>
 </tr>
 <tr>
@@ -51,7 +51,7 @@ Please enter mysql server username and password
 </tr>
 <tr>
 <td style='font-family:arial; color:white; font-size:14px; font-weight:bold; text-decoration:none;'>
-username :
+Username :
 </td>
 <td>
 <input type='text' name='username'>
@@ -59,7 +59,7 @@ username :
 </tr>
 <tr>
 <td style='font-family:arial; color:white; font-size:14px; font-weight:bold; text-decoration:none;'>
-password :
+Password :
 </td>
 <td>
 <input type='password' name='password'>
