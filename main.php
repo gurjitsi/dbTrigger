@@ -9,7 +9,7 @@
 ?>
 <html>
 <title>
-MYSQLtrigger
+dbTrigger
 </title>
 <head>
 <style type='text/css'>
@@ -50,7 +50,7 @@ border: 2px solid #444;
 <table height='550px' width='190px'>
 <tr>
 <td style='font-family:arial; color:grey; font-size:18px; font-weight:bold; text-decoration:none;'>
-<span style='font-family:arial; color:#444; font-size:20px; font-weight:bold; text-decoration:none;'>MYSQLtrigger 1.0</span>
+<span style='font-family:arial; color:#444; font-size:20px; font-weight:bold; text-decoration:none;'>dbTrigger 1.0</span>
 </td>
 </tr>
 <tr>
@@ -152,9 +152,8 @@ MYSQLtrigger
 </tr>
 <tr>
 <td colspan='3' style='border: 1px solid black;border-style:dotted; border-color:black;font-weight:bold;color:#444;font-size:14px;'>
-MYSQLtrigger version 1.0 <br/>
-<a href='http://www.nigblag.in/developers.php' style='text-decoration:none;color:orange;'>Developers</a><br/>
-<a href='http://www.nigblag.in/mysqltrigger.php' style='text-decoration:none;color:orange;'>Official Homepage</a>
+dbTrigger version 1.0 <br/>
+<a href='https://gurjit.co' style='text-decoration:none;color:orange;'>Developer</a><br/>
 </td>
 </tr>
 </table>
