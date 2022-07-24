@@ -24,7 +24,7 @@ $password=$_SESSION['password'];
         array_push($ads,$na);
         }
         $values=implode(",",$ads);
-        //echo $values;
+        
         $q1="insert into $table values($values)";
 	$result=mysql_query($q1);
           if($result==1)
