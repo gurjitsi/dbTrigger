@@ -1,7 +1,6 @@
 # DBTrigger 1.0
 
-<p>Powerful MySQL Client for Admins &amp; Developers</p>
-<h3>About The Project</h3><hr/>
+<h3>About this project</h3><hr/>
 <img src="/image/Screenshot 2022-07-24 at 12.59.21 AM.png" alt="Alt text" width="782" height="463" title="Screenshot">
 <p>
   DBtrigger is a web-based administration tool for managing MySQL database. It provides a graphical interface to perform various database operations like creating, modifying, and deleting databases, tables, columns, and rows. It also perform other database-related tasks through a user-friendly interface, making it easier for both beginners and experienced developers to work with databases.
