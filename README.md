@@ -36,7 +36,7 @@
 <ul>
   <li>Download project by going to <code>Project directory > Code > Download Zip</code></li>
   <li>Place downloaded project in local directory <code>c:\wamp\www</code> or remotely</li>
-  <li>Update login_script.php with server name<br/><code>$conn=mysql_connect('server name','','');</code></li>
+  <li>Update login_script.php with server name<br/><code>$conn=mysql_connect('server name','user name','password');</code></li>
 </ul>
 </p>
 <h3>License</h3><hr/>
